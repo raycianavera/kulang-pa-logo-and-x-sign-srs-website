@@ -1,0 +1,85 @@
+/*Section*/
+.sellcont {
+  padding-top: 4rem;
+  padding-bottom: 5rem;
+}
+
+.container {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+/*input part*/
+.srow {
+  margin-top: 1rem;
+}
+
+.fingerinput {
+  border: 2px solid #dfe3e7;
+  border-radius: 4%;
+  width: 37px;
+  height: 120px;
+  max-width: 12%;
+}
+
+.frow {
+  margin-top: 2rem;
+}
+
+.btn {
+  background-color: #144a4c;
+  color: white;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: #0069d9;
+  border-color: #0062cc;
+  text-decoration: none;
+}
+
+.lastrow {
+  margin-top: 4rem;
+}
+
+.localheaduser {
+  margin-bottom: 2rem;
+  margin-top: -1rem;
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+
+/* NAVBAR */
+#navigbar {
+  background-color: #144a4c;
+}
+
+.navbar {
+  padding: 0.5rem 1rem;
+}
+
+.brand-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+  padding-left: 1rem;
+}
+
+.links {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.loginform {
+  right: -7.9rem;
+}
+
+/*  INPUT AREA   */
+.sellrow {
+  margin-left: 1rem;
+}

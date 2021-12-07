@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Sim Card Registration System</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+  <!-- Bootstrap-->
+
+  <!-- Google Fonts-->
+  <link href="https://fonts.googleapis.com/css2?family=Heebo&family=Montserrat:wght@400;700;900&family=Ubuntu:wght@300;700&display=swap" rel="stylesheet">
+  <!-- Google Fonts-->
+
+  <!-- CSS File -->
+  <link rel="stylesheet" href="css/seller.css">
+  <!-- CSS File -->
+
+  <!-- Font Awesome-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <!-- Font Awesome-->
+</head>
+
+<body>
+  <section id="navigbar">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand brand-title" href="">Sim Card Registration</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link links" href="sellregisuser.html">Local User Registration</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link links" href="foreignregis.html">Foreign User Registration</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link links" href="sellerlogin.html">Logout</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </section>
+
+  <section class="container sellcont">
+    <section class="row justify-content-center">
+      <label class="localheaduser">FOREIGN USER SIM CARD REGISTRATION FORM</label>
+    </section>
+    <section class="row">
+      <div class="col-3">
+        <label class="Lname">Last Name</label>
+        <input type="text" class="form-control LN" placeholder="Reeves">
+      </div>
+      <div class="col-3 ">
+        <label class="Fname">First Name</label>
+        <input type="text" class="form-control FN" placeholder="Keanu">
+      </div>
+      <div class="col-3 ">
+        <label class="Mname">Middle Name</label>
+        <input type="text" class="form-control MN" placeholder="Charles">
+      </div>
+      <div class="col-3 ">
+        <label class="suff">Suffix</label>
+        <input type="text" class="form-control SF" placeholder="Sr">
+      </div>
+    </section>
+
+    <section class="row srow">
+      <div class="col-3">
+        <label class="Bday">Date of Birth</label>
+        <input type="date" class="form-control BD">
+      </div>
+      <div class="col-3 ">
+        <label class="gend">Gender</label>
+        <select class="Gender form-control" name="Gender">
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+        </select>
+      </div>
+      <div class="col-6 ">
+        <label class="passtitle">Passport Number</label>
+        <input type="text" class="form-control passnum">
+      </div>
+
+    </section>
+
+    <section class="row srow">
+      <div class="col-6">
+        <label class="nat">Nationality</label>
+        <input type="text" class="form-control nationality" placeholder="American">
+      </div>
+      <div class="col-6">
+        <label class="simnum">Sim Card Mobile # to be Registered</label>
+        <input type="text" class="form-control simcard" placeholder="ex: 09175901234">
+      </div>
+
+    </section>
+    <section class="row srow">
+      <div class="col-4">
+        <label class="dateofregis">Date of Registration</label>
+        <input type="date" class="form-control regisdate">
+      </div>
+      <div class="col-4">
+        <label class="timeofregis">Time of Registration</label>
+        <input type="time" class="form-control registime">
+      </div>
+      <div class="col-4">
+        <label class="branch">Registration Site</label>
+        <input type="text" class="form-control regisplace" placeholder="Cavite">
+      </div>
+    </section>
+    <section class="row justify-content-center frow">
+      <label class="fngr">Fingerprint Registration</label>
+    </section>
+    <section class="row srow justify-content-center">
+      <div class="col fingerinput">
+        <!-- Fingerprint -->
+      </div>
+
+    </section>
+
+    <section class="row lastrow">
+      <div class="col-6">
+        <button type="submit" class="btn btn-block">Scan Finger</button>
+      </div>
+      <div class="col-6">
+        <button type="submit" class="btn btn-block">Register User</button>
+      </div>
+
+    </section>
+  </section>
+
+
+</body>
+
+</html>
